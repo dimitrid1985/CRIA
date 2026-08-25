@@ -3,11 +3,79 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRIA - Centro de Recuperação Integrada de Animais</title>
+    <meta name="description" content="A CRIA é uma clínica veterinária formada por profissionais com experiência comprovada. Temos consultas, cirurgias, castrações, especialistas e exames laboratoriais e de imagem para cães e gatos. Estamos localizados em Campo Grande, Rio de Janeiro/RJ.">
+    <meta name="robots" content="index, follow">
+    <meta name="apple-mobile-web-app-title" content="CRIA" />
+    <meta property="og:title" content="CRIA | Clínica Veterinária em Campo Grande RJ | Cirurgias, Castrações e Internação para Cães e Gatos">
+    <meta property="og:description" content="A CRIA é uma clínica veterinária formada por profissionais com experiência comprovada. Temos consultas, cirurgias, castrações, especialistas e exames laboratoriais e de imagem para cães e gatos.">
+    <meta property="og:url" content="https://veterinariacria.com.br/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/og-image.png">
+    <meta property="og:locale" content="pt_BR">
+    <title>CRIA | Clínica Veterinária em Campo Grande RJ | Cirurgias, Castrações e Internação para Cães e Gatos</title>
+    <link rel="icon" type="image/png" href="/assets/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/icons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/icons/site.webmanifest" />
+    <link rel="canonical" href="https://veterinariacria.com.br/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "VeterinaryCare",
+        "name": "CRIA - Centro de Recuperação Integrada de Animais",
+        "description": "A CRIA é uma clínica veterinária formada por profissionais com experiência comprovada. Temos consultas, cirurgias, castrações, especialistas e exames laboratoriais e de imagem para cães e gatos. Estamos localizados em Campo Grande, Rio de Janeiro/RJ.",
+        "url": "https://veterinariacria.com.br/",
+        "telephone": "(21) 98662-4231",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Estr. do Campinho, 2076, Campo Grande",
+          "addressLocality": "Rio de Janeiro",
+          "addressRegion": "RJ",
+          "postalCode": "23070-220",
+          "addressCountry": "BR"
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Rio de Janeiro"
+          },
+          {
+            "@type": "Neighborhood",
+            "name": "Campo Grande"
+          }
+        ],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "18:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "09:00",
+            "closes": "16:00"
+          }
+        ],
+        "sameAs": [
+          "https://www.instagram.com/criavet.rj",
+          "https://www.facebook.com/criavet.rj"
+        ]
+      }
+    </script>
+
   </head>
   <body>
     <div class="page">
@@ -85,7 +153,7 @@
       </div>
 
       <!-- ============ PROVA SOCIAL ============ -->
-      <div class="section">
+      <div class="section" id="depoimentos">
         <div class="section-head">
           <h2>Quem conhece a CRIA, recomenda.</h2>
           <p>São 4,9 estrelas no Google, com 169 avaliações de tutores que já confiaram seus cães e gatos à nossa equipe.</p>
@@ -116,7 +184,7 @@
       </div>
 
       <!-- ============ O QUE FAZEMOS ============ -->
-      <div class="section section-alt">
+      <div class="section section-alt"  id="servicos">
         <div class="section-head">
           <h2>Estrutura completa para a saúde do seu cão ou gato.</h2>
           <p>Da prevenção ao tratamento, a CRIA reúne atendimento veterinário, diagnóstico, cirurgia, internação e especialistas.</p>
@@ -195,7 +263,7 @@
       </div>
 
       <!-- ============ DIFERENCIAL ============ -->
-      <div class="diff-media">
+      <div class="diff-media" id="sobre">
         <!--[FOTO: equipe / procedimento — full bleed]-->
       </div>
       <div class="diff-body">
@@ -210,7 +278,7 @@
       </div>
 
       <!-- ============ INFO PRÁTICA ============ -->
-      <div class="section section-alt">
+      <div class="section section-alt" id="faleconosco">
         <div class="section-head">
           <h2>Estamos em Campo Grande. Venha nos visitar.</h2>
         </div>
@@ -241,8 +309,8 @@
           <div class="info-row">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
             <div>
-              <div class="t">Segunda a sexta: 9h às 18h</div>
-              <div class="d">Sábado: 9h às 16h · Internação 24h para pacientes internados</div>
+              <div class="t">Segunda a sexta: 9h às 18h · Sábado: 9h às 16h</div>
+              <div class="d">Funcionamento 24h para pacientes internados</div>
             </div>
           </div>
         </div>
@@ -256,7 +324,7 @@
             <svg class="icon-accessibility" viewBox="0 0 24 24" fill="currentColor">
               <path d="M8.1,21.132c-0.554-0.048-1.051-0.154-1.543-0.319c-2.242-0.766-3.905-2.755-4.291-5.131c-0.022-0.139-0.05-0.331-0.06-0.427c-0.026-0.235-0.026-1.063,0-1.296c0.084-0.775,0.288-1.498,0.614-2.186c0.619-1.306,1.646-2.374,2.899-3.017l0.182-0.094l0.007,0.077c0.01,0.079,0.137,1.795,0.137,1.834c0,0.012-0.053,0.058-0.118,0.101c-0.274,0.187-0.602,0.482-0.826,0.744c-0.626,0.727-1.001,1.555-1.147,2.537c-0.026,0.18-0.031,0.274-0.034,0.634c0,0.434,0.01,0.583,0.065,0.881c0.18,0.974,0.612,1.812,1.298,2.515c0.238,0.245,0.439,0.41,0.722,0.605c1.094,0.744,2.453,0.972,3.73,0.626c0.312-0.084,0.557-0.182,0.922-0.372c0.974-0.502,1.786-1.409,2.198-2.455c0.122-0.312,0.23-0.706,0.276-1.015c0.014-0.091,0.029-0.166,0.031-0.166s0.257,0.526,0.564,1.169l0.557,1.169l-0.072,0.137c-0.749,1.43-2.047,2.558-3.564,3.101c-0.473,0.17-0.888,0.266-1.414,0.331C9.019,21.137,8.314,21.151,8.1,21.132L8.1,21.132z M15.77,18.958c-0.014-0.036-0.602-1.445-1.306-3.134l-1.277-3.072H10.008c-1.75,0-3.18-0.002-3.182-0.005c0-0.002-0.142-2.006-0.312-4.454l-0.31-4.452l-0.05-0.11c-0.101-0.223-0.151-0.439-0.161-0.691c-0.036-0.869,0.566-1.639,1.414-1.81c0.182-0.036,0.466-0.034,0.658,0.007c0.518,0.11,0.953,0.451,1.19,0.931c0.134,0.269,0.19,0.506,0.19,0.804c0,0.566-0.254,1.082-0.708,1.433c-0.206,0.161-0.54,0.302-0.766,0.326l-0.091,0.01l0.007,0.074c0.007,0.089,0.19,3.432,0.19,3.485v0.036h4.45v1.661H8.244l0.007,0.106c0.005,0.058,0.022,0.314,0.041,0.569l0.031,0.463l0.59-0.007c1.332-0.019,5.321-0.038,5.33-0.026c0.005,0.007,0.576,1.351,1.267,2.988s1.26,2.976,1.267,2.976c0.007,0,0.437-0.158,0.958-0.35c0.521-0.192,0.95-0.346,0.953-0.343c0.019,0.019,0.523,1.27,0.516,1.277c-0.01,0.01-3.341,1.351-3.386,1.363C15.804,19.02,15.79,19.003,15.77,18.958L15.77,18.958z"/>
             </svg>
-            <div class="lab">Acessível para cadeira de rodas</div>
+            <div class="lab">Recepção acessível</div>
           </div>
           <div class="amenity">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
